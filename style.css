@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oleo+Script:wght@700&family=Supermercado+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.sidebar{
+    background-color: rgb(170, 209, 182);
+    color: aliceblue;
+    width: 300px;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100vh;
+    
+    
+
+}
+.sidebar nav{
+    padding: 80px;
+}
+.sidebar nav li{
+    font-size: 27px;
+    list-style: none;
+    padding: 20px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(211, 7, 150);
+    transition: all 0.3s;
+}
+.sidebar nav li a:hover{
+    color: rgb(126, 126, 45);
+    font-weight: bold;
+}
+.main{
+    /*background-color: brown;*/
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Supermercado One', cursive;
+    padding-left: 10px;
+
+
+}
+.information{
+    background-color: rgb(174, 166, 182);
+    height: 70vh;
+    width: 120vh;
+    margin: 100px auto ;
+    display: flex;
+    justify-content: space-around;
+}
+.pinfo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    margin-top: 70px;
+    
+}
+.salute{
+    font-size: 6vh;
+    font-weight: 100;
+    
+
+}
+.i{
+    font-size: 4vh;
+}
+.name{
+    font-size: 7vh;
+    font-weight: bold;
+    font-family: 'Oleo Script', cursive;
+
+}
+.name:hover{
+    cursor: pointer;
+    color: rgb(247, 16, 16);
+}
+.About{
+    font-size: 5vh;
+    
+}
+.button button{
+    border: 3px solid green;
+    border-radius: 1.2rem;
+    font-size: 4vh;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 5px 5px;
+    margin: 20px 10px;
+}
+
+.button button:hover{
+    background-color: rgb(76, 173, 169);
+
+}
+.ppic img{
+    width: 50vh;
+    margin: 55px 10px ;
+    height: 50vh;
+    
+
+}
+.holder{
+    display: flex;
+    background-image: url("img/back1.jpg");
+}
+
+.form{
+    padding: 50px 50px;
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.form h2{
+    margin-left: 15px;
+}
+.form button{
+    border: 3px solid red;
+    border-radius:1.2rem ;
+    transition: all 0.3s ;
+    margin: 10px 120px;
+}
+.form button:hover{
+    background-color: rgb(101, 30, 167);
+}
+.form-group{
+    padding: 1px 10px;
+    margin: 5px 5px;
+    
+}
+.form-group input{
+    width: 250px;
+    border: 3px solid blue;
+    border-radius: 1.3rem;
+    padding-left: 30px;
+    transition: all 0.3s;
+}
+.form-group input:hover{
+    font-weight: 300;
+    background-color: rgb(173, 173, 173);
+}
+.form-group span{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+.form label{
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-check-input{
+    padding-left: 10px;
+    display: flex;
+    
+}
+.form-group textarea{
+    padding: 20px 50px;
+}
+.main1{
+    background-image: url("img/blog.png");
+    
+
+}
+.blogcontainer {
+
+    padding: 10px 30px ;
+}
+.blogcontainer h3 {
+    margin: 10px 5px;
+    transition: all 0.5s;
+}
+.blogcontainer h3:hover{
+    font-size: 30px;
+    color: rgb(32, 95, 3);
+    cursor: pointer;
+    font-weight: bold;
+    font-style: inherit;
+}
+.blogitem{
+    margin: 10px 0;
+}
+.main h4{
+    margin: 10px 5px;
+}
+.me{
+    font-size: 13px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.span1{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 10px;
+    padding: 2px 2px;
+    margin: 10px 2px;
+}
+/*@media (max-width: 1615px) {
+   
+    .sidebar{
+        transform: translate(-400px 0px);
+        position: absolute;
+    }
+
+    
+}
